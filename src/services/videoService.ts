@@ -2,7 +2,7 @@ import { getSupabaseClient, getStorageClient } from '../lib/supabase';
 import { VideoDocument, VideoResponse } from '../types/database';
 
 const VIDEOS_TABLE = 'videos';
-const VIDEOS_BUCKET = 'Videos';
+const VIDEOS_BUCKET = 'videos';
 
 export class VideoService {
   static async getAllVideos(): Promise<VideoResponse[]> {
