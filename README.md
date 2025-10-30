@@ -2,7 +2,17 @@
 
 **Stream the World, Win Rewards**
 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Streamz-blue?style=flat-square&logo=github)](https://github.com/tebogonong/Streamz)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE.md)
+[![React](https://img.shields.io/badge/React-18.3.1-blue?style=flat-square&logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Base](https://img.shields.io/badge/Base-Sepolia-blue?style=flat-square&logo=ethereum)](https://base.org/)
+
 TravelStreamz is a TikTok-style vertical video streaming platform that combines viral travel content with blockchain-based rewards and slot machine mechanics. Built on Base Sepolia testnet with integrated wallet connectivity, payment processing, and MongoDB video storage.
+
+## 📍 Repository
+- **GitHub**: [https://github.com/tebogonong/Streamz](https://github.com/tebogonong/Streamz)
+- **Live Demo**: Coming soon on Vercel
 
 ## 🎯 Features
 
@@ -58,10 +68,10 @@ TravelStreamz is a TikTok-style vertical video streaming platform that combines 
 
 ```sh
 # Clone the repository
-git clone https://github.com/tebogonong/travelstreamz.git
+git clone https://github.com/tebogonong/Streamz.git
 
 # Navigate to project directory
-cd travelstreamz
+cd Streamz
 
 # Install dependencies
 npm install
