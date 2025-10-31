@@ -49,6 +49,8 @@ TravelStreamz is a TikTok-style vertical video streaming platform that combines 
 - **Wallet Connection**: RainbowKit with Coinbase Wallet support
 - **Base Pay**: Native ETH payments for all transactions
 - **Real-time Status**: Track payment confirmations on-chain
+- **Zora Token Creation**: Launch custom tokens using Zora SDK
+- **Multi-Chain Support**: Deploy tokens on Base, Ethereum, Optimism, and Zora
 
 ### 🎨 Modern UI/UX
 - **Mobile-First Design**: Fully responsive across all devices
@@ -114,9 +116,10 @@ All payments are processed through **Base Sepolia testnet** using native ETH:
 ### How to Use
 1. **Connect Your Wallet**: Top-right corner (desktop) or menu (mobile)
 2. **Switch to Base Sepolia**: Follow the prompt if not already on the network
-3. **Bet on Slots**: Place bets on video location token matches
-4. **Submit Content**: Pay $0.10 ETH to submit your travel videos
-5. **Trade Tokens**: Buy/sell location tokens like $BALI, $VEGAS, $DUBAI
+3. **Create Your Token**: Launch custom tokens using Zora SDK (see [ZORA_INTEGRATION.md](./ZORA_INTEGRATION.md))
+4. **Bet on Slots**: Place bets on video location token matches
+5. **Submit Content**: Pay $0.10 ETH to submit your travel videos
+6. **Trade Tokens**: Buy/sell location tokens like $BALI, $VEGAS, $DUBAI
 
 ### Transaction Types
 - 🎰 **Slot Bets**: Wager on matching location tokens across 3 reels

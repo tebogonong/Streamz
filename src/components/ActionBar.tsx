@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { TrendingUp, ShoppingCart, Wallet, DollarSign, X } from "lucide-react";
+import { TrendingUp, ShoppingCart, Wallet, DollarSign, X, Coins } from "lucide-react";
 import { useState } from "react";
 import { BasePay } from "./BasePay";
+import { TokenCreationModal } from "./TokenCreationModal";
 import { useAccount } from "wagmi";
 import { 
   Dialog,
@@ -114,6 +115,16 @@ export const ActionBar = ({ tokenSymbol, tokenPrice }: ActionBarProps) => {
 
           {/* Action Buttons - Improved spacing and layout */}
           <div className="space-y-3 sm:space-y-4 mb-4 sm:mb-6">
+            {/* Create Token Button - Featured */}
+            <TokenCreationModal
+              trigger={
+                <Button className="w-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-semibold py-3 sm:py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg text-sm">
+                  <Coins className="w-4 h-4 mr-2" />
+                  Create Your Token
+                </Button>
+              }
+            />
+            
             <div className="grid grid-cols-2 gap-3 sm:gap-4">
               {/* Bet Button */}
               <Dialog>
